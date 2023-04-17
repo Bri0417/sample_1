@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="document">
+        <h2>Differences Between Document and Window Objects
+        </h2>
+        <h4>Document :</h4>
+        <ul>
+            <li>It represents any HTML document or web page that is loaded in the browser.</li>
+            <li>It is loaded inside the window.</li>
+            <li>It is the object of window property.</li>
+            <li>All the tags, elements with attributes in HTML are part of the document.</li>
+            <li>We can access the document from a window using the window. document.</li>
+            <li>The document is part of BOM and DOM.</li>
+            <li>Properties of document objects such as title, body, cookies, etc can also be accessed by a window like this window. Document.title</li>   
+        </ul>
+        <h5><strong>Syntax :</strong> <i>document.propertyname;</i></h5>
+        <h5><strong>Example: :</strong> <i>document.title :</i> will return the title of the document
+        </h5>
+    </div>
+
+    <div class="window">
+        <h2>Differences Between Document and Window Objects
+        </h2>
+        <h4>Window :</h4>
+        <ul>
+            <li>It represents a browser window or frame that displays the contents of the webpage.</li>
+            <li>It is the very first object that is loaded in the browser.</li>
+            <li>It is the object of the browser.</li>
+            <li>Global objects, functions, and variables of JavaScript are members of the window object.</li>
+            <li>We can access the window from the window only. i.e. window.window</li>
+            <li>The window is part of BOM, not DOM.</li>
+            <li>Properties of the window object cannot be accessed by the document object.</li>   
+        </ul>
+        <h5><strong>Syntax :</strong> <i>window.propertyname;</i></h5>
+        <h5><strong>Example: :</strong> <i>window.innerHeight :</i> will return the height of the content area of the browser
+        </h5>
+    </div>
+    
+</body>
+</html>
