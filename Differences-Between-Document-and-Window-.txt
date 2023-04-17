@@ -1,1 +1,0 @@
-Differences-Between-Document-and-Window-Objects
